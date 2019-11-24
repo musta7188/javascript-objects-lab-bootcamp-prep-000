@@ -15,3 +15,5 @@ object[key] = value
 return object
 
 }
+
+destructivelyUpdateObjectWithKeyAndValue(recipes)
