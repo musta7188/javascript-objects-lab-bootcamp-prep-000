@@ -16,4 +16,4 @@ return object
 
 }
 
-destructivelyUpdateObjectWithKeyAndValue(recipes)
+destructivelyUpdateObjectWithKeyAndValue(recipes, "prop1", 2)
