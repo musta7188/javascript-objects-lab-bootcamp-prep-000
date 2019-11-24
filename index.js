@@ -15,5 +15,3 @@ object[key] = value
 return object
 
 }
-
-destructivelyUpdateObjectWithKeyAndValue(recipes, "prop1", 2)
