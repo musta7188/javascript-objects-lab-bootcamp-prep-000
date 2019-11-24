@@ -8,4 +8,14 @@ function updateObjectWithKeyAndValue(object, key, value){
 
 }
 
-updateObjectWithKeyAndValue(obj, prop2, 2)
+updateObjectWithKeyAndValue(obj, "prop2", 2)
+
+destructivelyUpdateObjectWithKeyAndValue(object, key, value){
+
+  object[key] = value
+
+  return object
+
+}
+
+destructivelyUpdateObjectWithKeyAndValue(obj, "prop3", 3)
